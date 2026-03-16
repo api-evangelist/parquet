@@ -1,4 +1,4 @@
-name: Apache Parquet APIs
+name: Apache Parquet
 description: APIs and tools for working with Apache Parquet columnar storage format
 image: https://parquet.apache.org/assets/img/parquet-logo.png
 tags:
