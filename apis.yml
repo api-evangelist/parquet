@@ -3,11 +3,11 @@ description: >-
   APIs and tools for working with Apache Parquet columnar storage format.
 image: https://parquet.apache.org/assets/img/parquet-logo.png
 tags:
-  - parquet
-  - columnar storage
-  - big data
-  - apache
-  - data format
+  - Apache
+  - Big Data
+  - Columnar Storage
+  - Data Format
+  - Parquet
 created: '2024'
 modified: '2024'
 url: https://parquet.apache.org
@@ -20,27 +20,26 @@ apis:
     humanURL: https://parquet.apache.org/docs/
     baseURL: https://github.com/apache/parquet-format
     tags:
-      - specification
-      - format
-      - schema
+      - Format
+      - Schema
+      - Specification
     properties:
       - type: Documentation
         url: https://parquet.apache.org/docs/file-format/
       - type: GitHub Repository
         url: https://github.com/apache/parquet-format
       - type: Thrift Definition
-        url: 
-          https://github.com/apache/parquet-format/blob/master/src/main/thrift/parquet.thrift
+        url: https://github.com/apache/parquet-format/blob/master/src/main/thrift/parquet.thrift
   - name: PyArrow Parquet Python API
     description: >-
       Python library for reading and writing Parquet files.
     humanURL: https://arrow.apache.org/docs/python/parquet.html
     baseURL: https://pypi.org/project/pyarrow/
     tags:
-      - python
-      - library
-      - read
-      - write
+      - Library
+      - Python
+      - Read
+      - Write
     properties:
       - type: Documentation
         url: https://arrow.apache.org/docs/python/parquet.html
@@ -56,9 +55,9 @@ apis:
     humanURL: https://github.com/apache/parquet-java
     baseURL: https://search.maven.org/search?q=g:org.apache.parquet
     tags:
-      - java
-      - library
-      - hadoop
+      - Hadoop
+      - Java
+      - Library
     properties:
       - type: Documentation
         url: https://github.com/apache/parquet-java/blob/master/README.md
@@ -74,9 +73,9 @@ apis:
     humanURL: https://arrow.apache.org/docs/cpp/parquet.html
     baseURL: https://github.com/apache/arrow/tree/main/cpp
     tags:
-      - cpp
-      - library
-      - performance
+      - Cpp
+      - Library
+      - Performance
     properties:
       - type: Documentation
         url: https://arrow.apache.org/docs/cpp/parquet.html
@@ -90,9 +89,9 @@ apis:
     humanURL: https://arrow.apache.org/docs/r/
     baseURL: https://cran.r-project.org/package=arrow
     tags:
-      - r
-      - library
-      - data analysis
+      - Data Analysis
+      - Library
+      - R
     properties:
       - type: Documentation
         url: https://arrow.apache.org/docs/r/articles/parquet.html
@@ -106,9 +105,9 @@ apis:
     humanURL: https://fastparquet.readthedocs.io/
     baseURL: https://pypi.org/project/fastparquet/
     tags:
-      - python
-      - library
-      - alternative
+      - Alternative
+      - Library
+      - Python
     properties:
       - type: Documentation
         url: https://fastparquet.readthedocs.io/en/latest/
