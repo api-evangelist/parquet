@@ -1,6 +1,12 @@
+aid: parquet
 name: Apache Parquet
 description: >-
-  APIs and tools for working with Apache Parquet columnar storage format.
+  APIs and tools for working with Apache Parquet, the open source columnar
+  storage format for efficient analytics workloads. This index covers the
+  format specification along with the major language implementations.
+type: Index
+position: Producer
+access: Open Source
 image: https://parquet.apache.org/assets/img/parquet-logo.png
 tags:
   - Apache
@@ -8,12 +14,14 @@ tags:
   - Columnar Storage
   - Data Format
   - Parquet
-created: '2024'
-modified: '2024'
-url: https://parquet.apache.org
-specificationVersion: '0.18'
+created: '2024-01-01'
+modified: '2026-04-28'
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/parquet/refs/heads/main/apis.yml
+specificationVersion: '0.19'
 apis:
-  - name: Apache Parquet Format Specification
+  - aid: parquet:format-specification
+    name: Apache Parquet Format Specification
     description: >-
       The core specification for the Parquet columnar storage format.
     image: https://parquet.apache.org/assets/img/parquet-logo.png
@@ -30,9 +38,11 @@ apis:
         url: https://github.com/apache/parquet-format
       - type: Thrift Definition
         url: https://github.com/apache/parquet-format/blob/master/src/main/thrift/parquet.thrift
-  - name: PyArrow Parquet Python API
+  - aid: parquet:pyarrow
+    name: PyArrow Parquet Python API
     description: >-
-      Python library for reading and writing Parquet files.
+      Python library for reading and writing Parquet files, distributed as
+      part of Apache Arrow.
     humanURL: https://arrow.apache.org/docs/python/parquet.html
     baseURL: https://pypi.org/project/pyarrow/
     tags:
@@ -49,7 +59,8 @@ apis:
         url: https://github.com/apache/arrow
       - type: API Reference
         url: https://arrow.apache.org/docs/python/api/formats.html
-  - name: Parquet Java API
+  - aid: parquet:java
+    name: Parquet Java API
     description: >-
       Java implementation for reading and writing Parquet files.
     humanURL: https://github.com/apache/parquet-java
@@ -67,7 +78,8 @@ apis:
         url: https://search.maven.org/search?q=g:org.apache.parquet
       - type: JavaDoc
         url: https://www.javadoc.io/doc/org.apache.parquet/parquet-hadoop
-  - name: Parquet C++ API
+  - aid: parquet:cpp
+    name: Parquet C++ API
     description: >-
       C++ implementation as part of Apache Arrow.
     humanURL: https://arrow.apache.org/docs/cpp/parquet.html
@@ -83,7 +95,8 @@ apis:
         url: https://github.com/apache/arrow
       - type: API Reference
         url: https://arrow.apache.org/docs/cpp/api/parquet.html
-  - name: Parquet R API
+  - aid: parquet:r
+    name: Parquet R API
     description: >-
       R package for reading and writing Parquet files via Apache Arrow.
     humanURL: https://arrow.apache.org/docs/r/
@@ -99,7 +112,8 @@ apis:
         url: https://cran.r-project.org/package=arrow
       - type: GitHub Repository
         url: https://github.com/apache/arrow/tree/main/r
-  - name: FastParquet Python API
+  - aid: parquet:fastparquet
+    name: FastParquet Python API
     description: >-
       Alternative Python implementation for Parquet files.
     humanURL: https://fastparquet.readthedocs.io/
@@ -116,7 +130,7 @@ apis:
       - type: GitHub Repository
         url: https://github.com/dask/fastparquet
 maintainers:
-  - name: Apache Software Foundation
+  - FN: Apache Software Foundation
     email: dev@parquet.apache.org
     url: https://parquet.apache.org
 common:

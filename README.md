@@ -1,28 +1,39 @@
-# Apache Parquet APIs (parquet)
-APIs and tools for working with Apache Parquet columnar storage format
+# Apache Parquet (parquet)
+APIs and tools for working with Apache Parquet, the open source columnar storage format for efficient analytics workloads. This index covers the format specification along with the major language implementations.
 
-**URL:** [Visit APIs.json URL](https://parquet.apache.org)
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/parquet/refs/heads/main/apis.yml)
 
-## Tags:
+## Scope
 
- - parquet, columnar storage, big data, apache, data format
+- **Type:** Index
+- **Position:** Producer
+- **Access:** Open Source
+
+## Tags
+
+- Apache
+- Big Data
+- Columnar Storage
+- Data Format
+- Parquet
 
 ## Timestamps
 
-- **Created:** 2024 
-- **Modified:** 2024 
+- **Created:** 2024-01-01
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### Apache Parquet Format Specification
-The core specification for the Parquet columnar storage format
+The core specification for the Parquet columnar storage format.
 
 **Human URL:** [https://parquet.apache.org/docs/](https://parquet.apache.org/docs/)
 
+#### Tags
 
-#### Tags:
-
- - specification, format, schema
+- Format
+- Schema
+- Specification
 
 #### Properties
 
@@ -31,14 +42,16 @@ The core specification for the Parquet columnar storage format
 - [Thrift Definition](https://github.com/apache/parquet-format/blob/master/src/main/thrift/parquet.thrift)
 
 ### PyArrow Parquet Python API
-Python library for reading and writing Parquet files
+Python library for reading and writing Parquet files, distributed as part of Apache Arrow.
 
 **Human URL:** [https://arrow.apache.org/docs/python/parquet.html](https://arrow.apache.org/docs/python/parquet.html)
 
+#### Tags
 
-#### Tags:
-
- - python, library, read, write
+- Library
+- Python
+- Read
+- Write
 
 #### Properties
 
@@ -48,14 +61,15 @@ Python library for reading and writing Parquet files
 - [API Reference](https://arrow.apache.org/docs/python/api/formats.html)
 
 ### Parquet Java API
-Java implementation for reading and writing Parquet files
+Java implementation for reading and writing Parquet files.
 
 **Human URL:** [https://github.com/apache/parquet-java](https://github.com/apache/parquet-java)
 
+#### Tags
 
-#### Tags:
-
- - java, library, hadoop
+- Hadoop
+- Java
+- Library
 
 #### Properties
 
@@ -65,14 +79,15 @@ Java implementation for reading and writing Parquet files
 - [JavaDoc](https://www.javadoc.io/doc/org.apache.parquet/parquet-hadoop)
 
 ### Parquet C++ API
-C++ implementation as part of Apache Arrow
+C++ implementation as part of Apache Arrow.
 
 **Human URL:** [https://arrow.apache.org/docs/cpp/parquet.html](https://arrow.apache.org/docs/cpp/parquet.html)
 
+#### Tags
 
-#### Tags:
-
- - cpp, library, performance
+- Cpp
+- Library
+- Performance
 
 #### Properties
 
@@ -81,14 +96,15 @@ C++ implementation as part of Apache Arrow
 - [API Reference](https://arrow.apache.org/docs/cpp/api/parquet.html)
 
 ### Parquet R API
-R package for reading and writing Parquet files via Apache Arrow
+R package for reading and writing Parquet files via Apache Arrow.
 
 **Human URL:** [https://arrow.apache.org/docs/r/](https://arrow.apache.org/docs/r/)
 
+#### Tags
 
-#### Tags:
-
- - r, library, data analysis
+- Data Analysis
+- Library
+- R
 
 #### Properties
 
@@ -97,14 +113,15 @@ R package for reading and writing Parquet files via Apache Arrow
 - [GitHub Repository](https://github.com/apache/arrow/tree/main/r)
 
 ### FastParquet Python API
-Alternative Python implementation for Parquet files
+Alternative Python implementation for Parquet files.
 
 **Human URL:** [https://fastparquet.readthedocs.io/](https://fastparquet.readthedocs.io/)
 
+#### Tags
 
-#### Tags:
-
- - python, library, alternative
+- Alternative
+- Library
+- Python
 
 #### Properties
 
