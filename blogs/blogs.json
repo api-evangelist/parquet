@@ -1,0 +1,13 @@
+{
+  "repo": "parquet",
+  "feeds": [
+    {
+      "source": "https://parquet.apache.org/blog/",
+      "feed_url": "https://parquet.apache.org/blog/index.xml",
+      "title": "Blog on Parquet",
+      "saved": 0
+    }
+  ],
+  "fetched": "2026-05-09T20:17:51Z",
+  "post_count": 0
+}
