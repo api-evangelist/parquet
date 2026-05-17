@@ -34,7 +34,7 @@ apis:
     properties:
       - type: Documentation
         url: https://parquet.apache.org/docs/file-format/
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/apache/parquet-format
       - type: Thrift Definition
         url: https://github.com/apache/parquet-format/blob/master/src/main/thrift/parquet.thrift
@@ -55,9 +55,9 @@ apis:
         url: https://arrow.apache.org/docs/python/parquet.html
       - type: PyPI Package
         url: https://pypi.org/project/pyarrow/
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/apache/arrow
-      - type: API Reference
+      - type: APIReference
         url: https://arrow.apache.org/docs/python/api/formats.html
   - aid: parquet:java
     name: Parquet Java API
@@ -72,7 +72,7 @@ apis:
     properties:
       - type: Documentation
         url: https://github.com/apache/parquet-java/blob/master/README.md
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/apache/parquet-java
       - type: Maven Repository
         url: https://search.maven.org/search?q=g:org.apache.parquet
@@ -91,9 +91,9 @@ apis:
     properties:
       - type: Documentation
         url: https://arrow.apache.org/docs/cpp/parquet.html
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/apache/arrow
-      - type: API Reference
+      - type: APIReference
         url: https://arrow.apache.org/docs/cpp/api/parquet.html
   - aid: parquet:r
     name: Parquet R API
@@ -110,7 +110,7 @@ apis:
         url: https://arrow.apache.org/docs/r/articles/parquet.html
       - type: CRAN Package
         url: https://cran.r-project.org/package=arrow
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/apache/arrow/tree/main/r
   - aid: parquet:fastparquet
     name: FastParquet Python API
@@ -127,7 +127,7 @@ apis:
         url: https://fastparquet.readthedocs.io/en/latest/
       - type: PyPI Package
         url: https://pypi.org/project/fastparquet/
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/dask/fastparquet
 maintainers:
   - FN: Apache Software Foundation
