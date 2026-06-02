@@ -2,12 +2,20 @@
   "repo": "parquet",
   "feeds": [
     {
-      "source": "https://parquet.apache.org/blog/",
+      "source": "https://parquet.apache.org/blog/index.xml",
       "feed_url": "https://parquet.apache.org/blog/index.xml",
-      "title": "Blog on Parquet",
-      "saved": 22
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://issues.apache.org/jira/projects/PARQUET",
+      "feed_url": "https://issues.apache.org/jira/projects/PARQUET",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "fetched": "2026-05-17T20:20:35Z",
-  "post_count": 22
+  "fetched": "2026-06-01T23:35:02Z",
+  "post_count": 23
 }
