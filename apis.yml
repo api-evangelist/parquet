@@ -134,6 +134,10 @@ maintainers:
     email: dev@parquet.apache.org
     url: https://parquet.apache.org
 common:
+  - type: VulnerabilityDisclosure
+    url: security/parquet-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/parquet-domain-security.yml
   - type: Mailing Lists
     url: https://parquet.apache.org/community/
   - type: Issue Tracker
