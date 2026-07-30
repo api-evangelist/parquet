@@ -5,6 +5,18 @@ description: >-
   storage format for efficient analytics workloads. This index covers the
   format specification along with the major language implementations.
 type: Index
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 position: Producer
 access: Open Source
 image: https://parquet.apache.org/assets/img/parquet-logo.png
