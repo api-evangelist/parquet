@@ -60,6 +60,9 @@ apis:
     tags:
       - Library
       - Python
+    tags_raw:
+      - Library
+      - Python
       - Read
       - Write
     properties:
