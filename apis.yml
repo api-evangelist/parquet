@@ -5,6 +5,17 @@ description: >-
   storage format for efficient analytics workloads. This index covers the
   format specification along with the major language implementations.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
@@ -149,6 +160,14 @@ maintainers:
     email: dev@parquet.apache.org
     url: https://parquet.apache.org
 common:
+  - type: IssueTracker
+    url: https://github.com/apache/parquet-format/issues
+  - type: Releases
+    url: https://github.com/apache/parquet-format/releases
+  - type: CodeOfConduct
+    url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/apache/parquet-format/blob/master/CONTRIBUTING.md
   - type: VulnerabilityDisclosure
     url: security/parquet-vulnerability-disclosure.yml
   - type: DomainSecurity
