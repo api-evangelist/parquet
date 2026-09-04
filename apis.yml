@@ -28,7 +28,7 @@ accessModel:
   - plans
   generated: '2026-07-22'
   method: derived
-position: Producer
+position: Producing
 access: Open Source
 image: https://parquet.apache.org/assets/img/parquet-logo.png
 tags:
