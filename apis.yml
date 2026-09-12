@@ -160,6 +160,8 @@ maintainers:
     email: dev@parquet.apache.org
     url: https://parquet.apache.org
 common:
+  - type: Website
+    url: https://www.apache.org/
   - type: IssueTracker
     url: https://github.com/apache/parquet-format/issues
   - type: Releases
