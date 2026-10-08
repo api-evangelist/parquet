@@ -166,6 +166,12 @@ maintainers:
     email: dev@parquet.apache.org
     url: https://parquet.apache.org
 common:
+  - type: Plans
+    url: plans/parquet-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/parquet-rate-limits.yml
+  - type: FinOps
+    url: finops/parquet-finops.yml
   - type: Website
     url: https://www.apache.org/
   - type: IssueTracker
