@@ -117,6 +117,10 @@ apis:
     humanURL: https://arrow.apache.org/docs/cpp/parquet.html
     baseURL: https://github.com/apache/arrow/tree/main/cpp
     tags:
+      - C++
+      - Library
+      - Performance
+    tags_raw:
       - Cpp
       - Library
       - Performance
